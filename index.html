@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Cotações</title>
+        <script src="script.js"></script>
+
+        <style>
+
+            h1{
+                color: black;
+                font-size: larger; 
+            }
+            h2{
+                color: gray;
+                font-size: larger; 
+            }
+
+            .header{
+                color: black;
+                font-size: larger; 
+            }
+
+            .footer{
+                color: black;
+                font-size: larger; 
+            }
+
+             .name{
+                border-color: grey;
+                border-width: 1px;
+                border-style: solid;
+                width: 20%;
+            }
+
+            #carregarCotas{
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+
+        </style>
+    
+    </head>
+
+    <body onload="carregarMoedas()">
+
+        <h1 class="header">Lista de Cotas</h1>
+
+        <div id="conteudo-moeda"></div>
+
+    </body>
+
+</html>
